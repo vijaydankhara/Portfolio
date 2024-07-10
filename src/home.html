@@ -11,12 +11,14 @@
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
     crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+  <script src="https://cdn.tailwindcss.com"></script>
+
 
 </head>
 
 <body class="bg-white flex items-center justify-center min-h-screen">
   <!-- Setting Icon Start -->
-  <div class="fixed top-[200px] left-0 bg-white px-5 py-3 text-black text-2xl rounded-r-md z-30 ">
+  <div class="fixed top-[200px] left-0 bg-white px-6 py-5 text-black text-2xl rounded-r-md z-30 ">
     <i class="fa-solid fa-gear bg-white text-black text-2xl rounded-r-md z-50 animate-spin"></i>
   </div>
   <!-- Setting Icon End -->
@@ -28,10 +30,12 @@
 
     <!-- text Section -->
     <div class="p-8 mt-32 ml-12 mr-40 ">
-      <h1 class="text-6xl text-center font-bold text-gray-800 mb-4">
-
-        <span class="text-vijay-0">I'm Vijay Dankhara</span><br>
-        <h1 class="text-6xl text-center font-bold text-gray-600 mb-5">Web Designer</h1>
+      <div class="flex justify-center mb-4 relative">
+        <div class="h-1 w-10 bg-vijay-0 rounded-full absolute left-[-3%] mt-14"></div>
+      </div>
+      <h1 class="text-[51px] text-center font-bold text-gray-800 mb-4 ml-8">
+        <span class="text-vijay-0">I'M VIJAY DANKHARA.</span><br>
+        <h1 class="text-5xl text-center font-bold text-gray-600 mb-5">WEB DESIGNER</h1>
       </h1>
       <p class="text-gray-600 mb-6">
         I'm a Vijay Dankhara web designer & front-end developer focused on crafting clean & user-friendly experiences. I
@@ -39,55 +43,90 @@
       </p>
       <div
         class="inline-flex items-center border hover:text-white duration-500 transition border-vijay-0  hover:bg-vijay-0  font-bold rounded-full">
-        <a href="#" class="inline-block text-gray-700  py-2  px-4 rounded-full hover:text-white ">More About Me</a>
+        <a href="about.html" class="inline-block text-gray-700  py-2  px-4 rounded-full hover:text-white ">More About
+          Me</a>
         <div class="flex items-center justify-center w-14 h-14 bg-vijay-0 rounded-full ">
           <i class="fa-solid fa-right-long text-white  text-2xl"></i>
         </div>
       </div>
     </div>
+  </div>
 
-    <!-- navbar -->
-    <div class=" fixed grid grid-cols-1 grid-rows-4 right-8 top-20 space-y-4 ">
-      <div class="flex flex-col space-y-4">
-        <a href=""
-          class="bg-gray-300 hover:bg-vijay-0 hover:text-white mb-8 h-12 w-12 text-center text-2xl rounded-full p-4 flex justify-center"><i
-            class="fa fa-moon"></i></a>
+  <!-- navbar -->
+  <div class="fixed right-8 top-12 space-y-4 flex flex-col">
+    <a href=""
+      class="bg-gray-300 hover:bg-vijay-0 hover:text-white mb-8 h-12 w-12 text-center text-2xl rounded-full p-4 flex justify-center"><i
+        class="fa fa-moon"></i></a>
+  </div>
+
+
+  <!-- Navbar -->
+  <div class="fixed right-8 top-36 space-y-4 flex flex-col">
+  
+    <!-- home -->
+    
+      <div class="">
+        <div
+          class="group inline-flex items-center border hover:text-white duration-500 transition border-vijay-0 hover:bg-vijay-0 font-bold rounded-full">
+          <a href="home.html" class="py-2 px-4 rounded-full text-white hidden group-hover:inline-block">HOME</a>
+          <div class="group hover:bg-vijay-0 flex items-center justify-center w-12 h-12 bg-gray-300 rounded-full">
+            <i class="fa-solid fa-house-chimney text-black hover:text-white text-2xl"></i>
+          </div>
+        </div>
       </div>
+    
 
-      <div class="flex flex-col space-y-4">
-        <a href="home.html"
-          class="bg-gray-300 hover:bg-vijay-0 hover:text-white h-12 w-12 text-center rounded-full p-4 flex justify-center"><i
-            class="fa-solid fa-house-chimney"></i></a>
+    <!-- about -->
+      <div class="">
+        <div
+          class="group inline-flex items-center border hover:text-white duration-500 transition border-vijay-0 hover:bg-vijay-0 font-bold rounded-full">
+          <a href="about.html" class="py-2 px-4 rounded-full text-white hidden group-hover:inline-block">ABOUT</a>
+          <div class="group hover:bg-vijay-0 flex items-center justify-center w-12 h-12 bg-gray-300 rounded-full">
+            <i class="fa fa-user text-black hover:text-white text-2xl"></i>
+          </div>
+  
       </div>
-
-      <div class="flex flex-col space-y-4">
-        <a href="about.html"
-          class="bg-gray-300 hover:bg-vijay-0 hover:text-white h-12 w-12 text-center rounded-full p-4 flex justify-center"><i
-            class="fa fa-user"></i></a>
-      </div>
-
-      <div class="flex flex-col space-y-4">
-        <a href="portfolio.html"
-          class="bg-gray-300 hover:bg-vijay-0 hover:text-white h-12 w-12 text-center rounded-full p-4 flex justify-center"><i
-            class="fa fa-briefcase "></i></a>
-      </div>
-
-      <div class="flex flex-col space-y-4">
-        <a href="contact.html"
-          class="bg-gray-300 hover:bg-vijay-0 hover:text-white h-12 w-12 text-center rounded-full p-4 flex justify-center"><i
-            class="fa fa-envelope-open"></i></a>
-      </div>
-
-      <div class="flex flex-col space-y-4">
-        <a href="blog.html"
-          class="bg-gray-300 hover:bg-vijay-0 hover:text-white h-12 w-12 text-center rounded-full p-4 flex justify-center"><i
-            class="fa fa-comments"></i></a>
-      </div>
-
-
-
     </div>
-    <script src="index.js"></script>
+    <!-- portfolio -->
+      <div class="">
+        <div
+          class="group inline-flex items-center border hover:text-white duration-500 transition border-vijay-0 hover:bg-vijay-0 font-bold rounded-full">
+          <a href="portfolio.html"
+            class="py-2 px-4 rounded-full text-white hidden group-hover:inline-block">PORTFOLIO</a>
+          <div class="group hover:bg-vijay-0 flex items-center justify-center w-12 h-12 bg-gray-300 rounded-full">
+            <i class="fa fa-briefcase text-black hover:text-white text-2xl"></i>
+        </div>
+      </div>
+    </div>
+
+    <!-- contact -->
+      <div class="">
+        <div
+          class="group inline-flex items-center border hover:text-white duration-500 transition border-vijay-0 hover:bg-vijay-0 font-bold rounded-full">
+          <a href="contact.html" class="py-2 px-4 rounded-full text-white hidden group-hover:inline-block">CONTACT</a>
+          <div class="group hover:bg-vijay-0 flex items-center justify-center w-12 h-12 bg-gray-300 rounded-full">
+            <i class="fa fa-envelope-open text-black hover:text-white text-2xl"></i>
+          </div>
+        </div>
+    </div>
+
+    <!-- blog -->
+      <div class="">
+        <div
+          class="group inline-flex items-center border hover:text-white duration-500 transition border-vijay-0 hover:bg-vijay-0 font-bold rounded-full">
+          <a href="blog.html" class="py-2 px-4 rounded-full text-white hidden group-hover:inline-block">BLOG</a>
+          <div class="group hover:bg-vijay-0 flex items-center justify-center w-12 h-12 bg-gray-300 rounded-full">
+            <i class="fa fa-comments text-black hover:text-white text-2xl"></i>
+          </div>
+
+      </div>
+    </div>
+
+
+  </div>
+
+
+
 </body>
 
 </html>
