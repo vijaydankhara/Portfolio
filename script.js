@@ -210,7 +210,7 @@ portfolioWebsite.addEventListener("click", () => {
     languages.innerText = "html,css,javascript";
     preview.innerText = "Portfolio";
     preview.addEventListener("click", () => {
-        open("https://github.com/bhautikpatel21/Portfolio.git");
+        open("https://portfolio-nine-rho-38.vercel.app/");
     });
     ProjectImage.src = "./assets/Port.png";
 
