@@ -223,7 +223,7 @@ iceCreamWebsite.addEventListener("click", () => {
     languages.innerText = "react js";
     preview.innerText = "jummy ice-cream";
     preview.addEventListener("click", () => {
-        open("https://ice-cream-vijaydankhara.vercel.app/login");
+        open("https://ice-cream-vijaydankhara.vercel.app");
     });
     ProjectImage.src = "./assets/img2.png";
 
@@ -236,7 +236,7 @@ megaOneWebsite.addEventListener("click", () => {
     languages.innerText = "html,css";
     preview.innerText = "megaOne page";
     preview.addEventListener("click", () => {
-        open("https://vijaydankhara.netlify.app/");
+        open("https://vijaydankhara.netlify.app");
     });
     ProjectImage.src = "./assets/mega.png";
 
@@ -290,7 +290,7 @@ MernStackApp.addEventListener("click", () => {
     languages.innerText = "React MongoDB";
     preview.innerText = "MernStackApp ";
     preview.addEventListener("click", () => {
-        open("https://jumys-mern.vercel.app/shopList");
+        open("https://jumys-mern.vercel.app/");
     });
     ProjectImage.src = "./assets/MERN.png ";
 
