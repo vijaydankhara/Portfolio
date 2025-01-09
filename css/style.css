@@ -48,10 +48,13 @@ body {
   font-size: 1.2rem;
 }
 
-
 /* Home Section Starts */
 .home {
-  background: linear-gradient(33deg, rgba(242, 242, 255, 1) 0%, rgb(216, 240, 250) 100%);
+  background: linear-gradient(
+    33deg,
+    rgba(242, 242, 255, 1) 0%,
+    rgb(216, 240, 250) 100%
+  );
   padding: 30px 0 20px;
   text-align: center;
 }
@@ -253,9 +256,6 @@ body {
 
 /* Home Section End */
 
-
-
-
 /* Personal Information section starts  */
 .skill {
   background-color: rgb(249, 234, 234);
@@ -265,9 +265,11 @@ body {
 
 .progress-card {
   padding: 12% 10% 10% 15%;
-  background: linear-gradient(33deg,
-      rgb(49, 49, 253) 0%,
-      rgb(252, 93, 93) 100%);
+  background: linear-gradient(
+    33deg,
+    rgb(49, 49, 253) 0%,
+    rgb(252, 93, 93) 100%
+  );
   color: whitesmoke;
   font-family: Arial, Helvetica, sans-serif;
   text-align: center;
@@ -308,7 +310,6 @@ body {
   flex: 1 1 calc(33.33% - 1rem);
 }
 
-
 .skill-with-progress .col-12,
 .experience-section {
   border: 2px solid #202020;
@@ -343,7 +344,6 @@ body {
   color: #333;
 }
 
-
 @media (max-width: 768px) {
   .skill-with-progress {
     padding: 0.5rem;
@@ -373,7 +373,6 @@ body {
 }
 
 @media (max-width: 576px) {
-
   .skill-with-progress .col-12 h3,
   .experience-section h3 {
     font-size: 0.9rem;
@@ -402,16 +401,13 @@ body {
   }
 }
 
-
-
-
-
-
 /* portfolio section starts */
 .portfolio {
-  background: linear-gradient(33deg,
-      rgb(92, 74, 255) 0%,
-      rgb(248, 180, 125) 100%);
+  background: linear-gradient(
+    33deg,
+    rgb(92, 74, 255) 0%,
+    rgb(248, 180, 125) 100%
+  );
   padding-bottom: 20px;
 }
 
@@ -448,7 +444,6 @@ body {
 }
 
 /* portfolio section end */
-
 
 /* styling back to top button start */
 #btn-back-to-top {
@@ -519,8 +514,6 @@ footer .link-group a:hover {
 .social-links .behance:hover {
   background-color: #255afc;
 }
-
-
 
 /* fotter */
 .social-link {
